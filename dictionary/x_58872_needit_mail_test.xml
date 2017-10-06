@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="mail_test" max_length="40" name="x_58872_needit_mail_test" type="collection">
+        <element label="code" max_length="25" name="code" type="string"/>
+        <element display="true" label="name" max_length="100" name="name" type="string"/>
+        <element choice="1" label="Send Mail" mandatory="true" max_length="40" name="sendmail" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Y"/>
+                <element label="No" sequence="1" value="N"/>
+            </choice>
+        </element>
+    </element>
+</database>
